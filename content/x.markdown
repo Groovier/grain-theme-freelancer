@@ -1,12 +1,8 @@
 ---
-layout: default
+layout: title
 title: Freelancer Theme
 navigation:
     brand: Freelancer Theme
-header:
-    title: Freelancer Theme
-    skills: jinshengCao - Graphic Artist - User Experience Designer
-    image: profile.png
 sections:
     - name: Portfolio
     - name: About
@@ -30,8 +26,6 @@ portfolio:
         - modal: portfolioModal5 
           image: images/portfolio/safe.png
           
-        - modal: portfolioModal6 
-          image: images/portfolio/submarine.png
     
     modals:
         - id: portfolioModal1
@@ -78,38 +72,18 @@ portfolio:
           date: April 2014
           link: http://startbootstrap.com
           service: Web Development
-          
-        - id: portfolioModal6
-          title: Project Title
-          text: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-          image: images/portfolio/submarine.png
-          client: Start Bootstrap
-          date: April 2014
-          link: http://startbootstrap.com
-          service: Web Development
+
  
 about:
     title: About
     nav_name: About
     text1: Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
     text2: Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
-    link: /x.html
+    link: '#'
     linkname: Download Theme
 
 contact:
     title: Contact Me
     nav_name: Contact
-    
-footer:
-    title1: Location
-    text1: 3481 Melrose Place<br>Beverly Hills, CA 90210
-    title2: Around the Web
-    facebook: '#'
-    googleplus: '#'
-    twitter: '#'
-    linkedin: '#'
-    dribble: '#'
-    title3: About Freelancer
-    text3: Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.
-    copyright: Copyright &copy; Groovier 2016
+   
 ---
