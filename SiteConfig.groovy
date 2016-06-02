@@ -20,7 +20,7 @@ environments {
     }
     prod {
         log.info 'Production environment is used'
-        url = 'groovier.github.com' // site URL, for example http://www.example.com
+        url = 'groovier.github.io' // site URL, for example http://www.example.com
         show_unpublished = false
         features {
             minify_xml = false
@@ -47,7 +47,7 @@ ruby {
 s3_bucket = '' // your S3 bucket name
 deploy_s3 = "s3cmd sync --acl-public --reduced-redundancy ${destination_dir}/ s3://${s3_bucket}/"
 
-gh_pages_url = 'git@github.com:Groovier/groovier.github.com.git' // path to GitHub repository in format git@github.com:{username}/{repo}.git
+gh_pages_url = 'git@github.com:Groovier/groovier.github.io.git' // path to GitHub repository in format git@github.com:{username}/{repo}.git
 deploy = new GHPagesDeployer(site).deploy
 
 // Custom commands-line commands.
